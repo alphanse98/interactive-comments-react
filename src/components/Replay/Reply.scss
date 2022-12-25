@@ -1,0 +1,29 @@
+.none {
+  display: none;
+}
+.Reply {
+  .cart {
+    width: 81% !important;
+    margin-right: 20px !important;
+  }
+  .replyingTo {
+    margin: 0px !important;
+    color: hsl(238deg, 40%, 52%);
+    font-weight: 800;
+  }
+  .content {
+    margin: 0px !important;
+    color: hsl(211deg, 10%, 45%);
+    font-weight: 600;
+  }
+  .you {
+    // width: 30px;
+    padding: 3px 10px !important;
+    // border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: hsl(238deg, 40%, 52%);
+  }
+}
