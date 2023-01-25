@@ -1,9 +1,13 @@
 import React from 'react'
 import './EditBtn.scss'
 
-function EditBtn() {
+function EditBtn(props) {
+  let updateState=(e,ChildIndex)=>{
+    props.setEditData(e)
+    props.setEditIndex(ChildIndex)
+  }
   return (
-    <button className='EditBtn'>Edit</button>
+    <button className='EditBtn' onClick={()=>updateState(props.e,props.ChildIndex)}>Edit</button>
   )
 }
 

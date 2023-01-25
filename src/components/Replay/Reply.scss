@@ -16,6 +16,25 @@
     color: hsl(211deg, 10%, 45%);
     font-weight: 600;
   }
+  .replyText{
+    width: 90%;
+    height: 80px;
+    border: 1px solid #ccc !important;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: hsl(211deg, 10%, 45%);
+    font-weight: 600;
+  }
+  .UpdateBtn{
+    background-color: hsl(238deg, 40%, 52%);
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    // text-align: right;  
+    font-weight: 600;  }
   .you {
     // width: 30px;
     padding: 3px 10px !important;

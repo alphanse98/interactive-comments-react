@@ -2,8 +2,11 @@
   width: 700px;
   margin: 0 auto;
   padding-top: 20px;
-  background-color:hsl(223, 19%, 93%);
-
+  background-color: hsl(223, 19%, 93%);
+  .scroll {
+    height: 100vh;
+    overflow: scroll;
+  }
   .cart {
     width: 90%;
     margin: 0 auto;
@@ -23,13 +26,15 @@
       align-items: center;
       justify-content: center;
       margin-right: 15px;
-      width: 80px;
+      width: 45px;
       height: 70px;
     }
-    h4{
+    .btn {
       color: hsl(239, 57%, 85%);
+      font-weight: 800;
+      border: none;
     }
-    p{
+    p {
       color: hsl(238, 40%, 52%);
       font-weight: 800;
       // color: red;
@@ -40,6 +45,7 @@
     }
   }
   .avatar {
+    width: 100%;
     .heateeFlex {
       display: flex;
       justify-content: space-between;
@@ -52,20 +58,19 @@
       display: flex;
       // justify-content: center;
       align-items: center;
-      .userName{
+      .userName {
         color: hsl(212, 24%, 26%);
         font-weight: 700;
       }
-      .Date{
+      .Date {
         color: hsl(211, 10%, 45%);
         font-weight: 600;
-
       }
-      
     }
-    .Reply{
+    .Reply {
       color: hsl(238, 40%, 52%);
       font-weight: 800;
+      border: none;
     }
 
     img {

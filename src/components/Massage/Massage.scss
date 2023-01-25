@@ -1,3 +1,33 @@
 .Massage{
+
 color: red;
+padding: 15px;
+border-radius: 8px;
+background-color: white;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items:flex-start ;
+img{
+    width: 35px;
+}
+input {
+ height: 90px;
+ width: 510px;
+ border-radius: 8px;
+ border: 1px solid #ccc!important;
+ ::placeholder{
+  align-self: top;
+ }
+
+}
+button{
+    background-color: hsl(238deg, 40%, 52%);
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
 }
